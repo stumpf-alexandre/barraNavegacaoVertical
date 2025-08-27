@@ -18,3 +18,9 @@ a:active {
   background-color: #f7b600;
   color: #000;
 }
+
+#home #nav-vertical .home a, #sobre #nav-vertical .sobre a, #servico #nav-vertical .servico a, #noticias #nav-vertical .noticias a, #contato #nav-vertical .contato a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
