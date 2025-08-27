@@ -1,0 +1,20 @@
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;
+  text-indent: 40px;
+  line-height: 40px;
+  background: #f7b600 url(../image/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
+}
+
+a:active {
+  background-position: left bottom;
+  background-color: #f7b600;
+  color: #000;
+}
