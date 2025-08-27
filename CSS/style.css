@@ -1,4 +1,51 @@
-ul a {
+/*Navegação Horizontal*/
+ul#nav-horizontal {
+  width: 720px;
+  display: block;
+  background: #159cb0 url(../image/fundo-horizontal.png) repeat-x;
+  float: left;
+}
+
+ul#nav-horizontal li {
+  width: 143px;
+  float: left;
+}
+
+ul#nav-horizontal a {
+  display: block;
+  padding: 0 2em;
+  line-height: 2.2em;
+  color: #fff;
+  background: url(../image/divisor.png) repeat-y left top;
+}
+
+ul#nav-horizontal .first a {
+  background: none;
+}
+
+ul#nav-horizontal a:hover {
+  background: #44cade;
+  color: #085662;
+}
+
+ul#nav-horizontal a:active {
+  background-color: #159cb0;
+  color: #fff;
+}
+
+#home #nav-horizontal .home-horizontal a, #sobre #nav-horizontal .sobre-horizontal a, #servico #nav-horizontal .servico-horizontal a, #noticias #nav-horizontal .noticias-horizontal a, #contato #nav-horizontal .contato-horizontal a {
+  background: #44cade;
+  color: #085662;
+}
+
+.clear {
+  /*left, right, both*/
+  clear: both;
+  margin: 100px 0;
+}
+
+/*Navegação Vertical*/
+ul#nav-vertical a {
   width: 200px;
   height: 40px;
   display: block;
@@ -19,7 +66,7 @@ a:active {
   color: #000;
 }
 
-#home #nav-vertical .home a, #sobre #nav-vertical .sobre a, #servico #nav-vertical .servico a, #noticias #nav-vertical .noticias a, #contato #nav-vertical .contato a {
+#home #nav-vertical .home-vertical a, #sobre #nav-vertical .sobre-vertical a, #servico #nav-vertical .servico-vertical a, #noticias #nav-vertical .noticias-vertical a, #contato #nav-vertical .contato-vertical a {
   background-position: right bottom;
   background-color: #f99200;
   color: #fff;
