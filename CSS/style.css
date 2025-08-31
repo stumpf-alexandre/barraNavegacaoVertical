@@ -71,3 +71,33 @@ a:active {
   background-color: #f99200;
   color: #fff;
 }
+
+/*Navegação com Abas*/
+#tabbed-nav {
+  width: 720px;
+}
+
+#tabbed-nav li {
+  float: left;
+  background: url(../image/aba-direita.png) no-repeat top right;
+}
+
+#tabbed-nav li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  background: url(../image/aba-esquerda.png) no-repeat top left;
+  color: #fff;
+}
+
+#tabbed-nav a:hover {
+  color: #894a1f;
+}
+
+#tabbed-nav #tabbed {
+  background: url(../image/aba-direita-atual.png) no-repeat top right;
+}
+
+#tabbed-nav #tabbed a {
+  background: url(../image/aba-esquerda-atual.png) no-repeat top left;
+}
